@@ -1,5 +1,5 @@
 #微信情侣早安/天气推送    <br> <br>
-`推送模板` <br><br>
+`推送模板` <br>
 ```html
 {{date.DATA}} <br> 
 地区：{{region.DATA}} <br> 
