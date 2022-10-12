@@ -2,9 +2,6 @@
 /**
  * XDING WeChat Public Platform
  * 微信公众号 PHP 版推送信息
- *
- * @copyright  Copyright (c) 2022 XDING  (https://i4coder.com)
- 
  * @page      Main页
  */
 require './config.php';
