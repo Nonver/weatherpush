@@ -18,3 +18,6 @@
 {{birthday2.DATA}}<br> 
 {{love.DATA}} {{sjsj.DATA}} {{chp.DATA}}
 ```
+        后面会更新多人推送版本，适合朋友，或者日常提醒等功能
+        
+        有什么问题可以联系：Noenvy
