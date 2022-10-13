@@ -1,6 +1,5 @@
 <?php
 /**
- * XDING WeChat Public Platform
  * 微信公众号 PHP 版推送信息
  * @page      配置页
  */
