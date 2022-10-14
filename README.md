@@ -19,7 +19,7 @@
     
     基本上是可以实现很多功能的 看自己如何的去继续开发 我是没什么动力的 做一点是一点而已
 ***
-·多人推送模板·<br>
+多人推送模板<br>
 ```php
 {{date.DATA}} 
 地区：{{region.DATA}} 
@@ -39,7 +39,7 @@
 {{chp.DATA}} 
 ```
 `推送模板` <br>
-```html
+```php
 {{date.DATA}} 
 地区：{{region.DATA}} 
 天气：{{weather.DATA}} 
