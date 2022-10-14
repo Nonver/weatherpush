@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background-color: #75c473
+}
+
+body>.container {
+	width: 800px;
+	/* background: url(//img04.sogoucdn.com/app/a/200692/750_512_feedback_a61b4662d89b4af9af786db02c493f34.jpg) no-repeat top; */
+	background-size: 100%
+}
+
+.box {
+	position: relative;
+	top: 15rem;
+	padding: 2rem 2rem 0;
+	height: calc(100% - 15rem);
+	border-radius: 2rem;
+	background-color: #fff;
+	box-shadow: 0 .4rem 1rem .1rem rgb(0 0 0/20%)
+}
+
+.box .form-control {
+	border-radius: 1rem
+}
+
+.box .form-control:focus {
+	border-color: #75c473;
+	box-shadow: 0 0 0 .1rem #75c473
+}
+
+.box .alert-success,
+.box button {
+	border-radius: 1rem
+}
+
+.box button {
+	height: calc(3.5rem + 2px);
+	border-color: #75c473;
+	background-color: #75c473;
+	color: #fff;
+	line-height: 1.25
+}
+
+.box #jiaocheng .btn svg {
+	margin-top: -2px
+}
+
+@media screen and (max-width:800px) {
+	body>.container {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:400px) {
+	.box {
+		top: 10rem;
+		height: calc(100% - 10rem)
+	}
+}
+
+label {
+	font-size: 0.9rem;
+	display: flex;
+	align-items: center;
+}
+
+.text-center {
+	display: flex;
+	flex-direction: column;
+}
+.text-center>div{
+	margin-top: 10px;
+}
+.mb-5{
+	margin-bottom: 20px!important;
+}
