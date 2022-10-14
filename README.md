@@ -19,6 +19,25 @@
     
     基本上是可以实现很多功能的 看自己如何的去继续开发 我是没什么动力的 做一点是一点而已
 ***
+·多人推送模板·<br>
+```json
+{{date.DATA}} 
+地区：{{region.DATA}} 
+今天：{{today.DATA}}
+风向：{{wind_dir.DATA}}
+实时天气：{{real.DATA}}
+昼夜温差：{{temp.DATA}} 
+明天天气：{{speed.DATA}}
+
+星座：{{constella.DATA}}
+今天爱情指数：{{love.DATA}}
+今天幸运颜色：{{LuckyColor.DATA}}
+今天幸运数字：{{Numbers.DATA}}
+今天贵人星座：{{constellation.DATA}}
+今天是小助手给你提醒的第{{loveDay.DATA}}天哦 
+
+{{chp.DATA}} 
+```
 `推送模板` <br>
 ```html
 {{date.DATA}} 
